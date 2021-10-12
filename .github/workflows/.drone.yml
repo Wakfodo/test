@@ -1,4 +1,4 @@
-on: 
+on: push
 kind: pipeline
 type: docker
 name: default-1
