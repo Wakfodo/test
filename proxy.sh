@@ -5,7 +5,7 @@ logoutput: syslog
 user.privileged: root
 user.unprivileged: nobody
 # The listening network interface or address.
-internal: 0.0.0.0 port=80
+internal: 0.0.0.0 port=443
 # The proxying network interface or address.
 external: ens3
 # socks-rules determine what is proxied through the external interface.
