@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt update && sudo apt install dante-server -y
+apt update && sudo apt install dante-server -y
 cat > /etc/danted.conf <<END
 logoutput: syslog
 user.privileged: root
